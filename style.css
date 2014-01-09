@@ -1,0 +1,82 @@
+h1,h2,h3,h4,h5,h6 {
+    	font-family: "Droid Sans", sans-serif;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    html, body {
+    	color:white !important;
+    }
+
+    .img-responsive {
+	    margin: 0 auto;
+	}
+
+	.jumbotron, #bottomHalf {
+		background-color: transparent !important;
+	}
+
+	.jumbotron {
+		padding-bottom: 0;
+	}
+	body {
+      background-image:url("./back.jpg");
+      background-size: cover;
+      margin-bottom: 0;
+	}
+
+	.btn-primary {
+        background-color: transparent;
+        border-color: white;
+        color: white;
+-webkit-transition: all 0.3s ease-in;  /* Saf3.2+, Chrome */
+               -moz-transition: all 0.05s ease-in;  /* FF4+ */
+               -ms-transition: all 0.05s ease-in;  /* IE10? */
+               -o-transition: all 0.05s ease-in;  /* Opera 10.5+ */
+               transition: all 0.05s ease-in;
+    }
+    
+    .btn-primary:hover {
+        background-color:rgba(177,144,214);
+        color: #f7f7f7;
+        border-color: #333;
+    }
+
+    .btn-social-circle {
+        color:white;
+        border-radius:100%;
+        border: 1px solid white;
+        font-size:18px;
+        width: 43px;         /* Whatever fixed width you want here */
+        display: block;     /* Force the width to be respected. See also: inline-block */
+        float: left;        /* So it won't be 1-per-line. Not needed for inline-block */
+        text-align: center;
+-webkit-transition: all 0.3s ease-in;  /* Saf3.2+, Chrome */
+               -moz-transition: all 0.05s ease-in;  /* FF4+ */
+               -ms-transition: all 0.05s ease-in;  /* IE10? */
+               -o-transition: all 0.05s ease-in;  /* Opera 10.5+ */
+               transition: all 0.05s ease-in;
+    }
+
+    .soundcloud:hover {background-color:#ff7700; color:white;}
+    .facebook:hover {background-color: #3b5998; color:white;}
+    .twitter:hover { background-color: #00acee; color:white; }
+    .foursquare:hover { background-color: #25a0ca; color:white; }
+    .github:hover { background-color: #171515; color:white; }
+    .google-plus:hover { background-color: #dd4b39; color:white; }
+    .instagram:hover { background-color: #3f729b; color:white; }
+    .linkedin:hover { background-color: #0e76a8; color:white; }
+    .youtube:hover { background-color: #c4302b; color:white; }
+    .mail:hover { background-color: blue; color:white;}
+
+    ul { /* also works with ol */
+    width: 100%; /* or your desired width */
+    text-align: center; /* this will center the list items */
+}
+li {
+    display: inline-block; /* the key bit */
+    *display: inline; /* IE7 hack */
+    *zoom: 1; /* IE7 hack */
+}
